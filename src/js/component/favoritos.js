@@ -13,10 +13,10 @@ export default function Favoritos() {
 					<button className={`btn btn-secondary dropdown-toggle ${styles.FavMenu}`} type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
 						Favoritos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{store.favoritos.length}
 					</button>
-					<ul className="dropdown-menu" aria-labelledby="dropdownMenu2">
+					<ul className="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenu2">
 							{store.favoritos.length!=0? store.favoritos.map((favorito,index)=>{
 								return (
-									<li className="d-flex " key={index}>
+									<li className="d-flex" onClick={(e) => e.stopPropagation()} key={index}>
 										<Link to={favorito.url.substr(URL.length)} className="dropdown-item p-1 m-auto">
 											{favorito.name}
 										</Link>
