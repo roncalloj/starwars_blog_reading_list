@@ -1,0 +1,10 @@
+.FavMenu {
+  background: #148bf3;
+  color: white;
+}
+
+.FavMenu:hover {
+    background: #f3ca14;
+    color: black;
+  }
+
