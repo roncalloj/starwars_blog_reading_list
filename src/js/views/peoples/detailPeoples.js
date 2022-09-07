@@ -16,7 +16,7 @@ export default function DetailsPeoples(){
 	return (
 		<Fragment>
 				{people? (
-					<div className="card container border-0">
+					<div className="card container border-0	" style={{margin: "3rem 0 0"}}>
 						<div className="row g-0" style={{margin: "2rem 0"}}>
 							<div className="col-md-9 text-center m-auto">
 								<img src={`https://starwars-visualguide.com/assets/img/characters/${people.uid}.jpg`} 

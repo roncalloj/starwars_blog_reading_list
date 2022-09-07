@@ -10,8 +10,8 @@ export default function Peoples() {
 		var Pages = [...Pages,i]
 	}
 	return (
-		<div>
-			<h1 className="text-start m-3rem" style={{margin: "1rem"}}>People</h1>
+		<div style={{margin: "5rem 0 0"}}>
+			<h1 className="text-start" style={{margin: "0 1rem"}}>People</h1>
 			<div className="row row-cols-1 row-cols-md-4 g-4 p-0 m-0">
 				<PreviewAll items={store.peoples}/>
 			</div>

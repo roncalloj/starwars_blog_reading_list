@@ -1,4 +1,4 @@
-import React, { Fragment, useContext, useEffect } from "react";
+import React, { Fragment, useContext } from "react";
 import { Link } from "react-router-dom";
 import { Context } from '../store/appContext'
 import styles from "../../styles/demo.module.css"

@@ -15,7 +15,7 @@ export default function DetailsPlanets(){
 		return (
 			<Fragment>
 							{planet? (
-				<div className="card container border-0">
+				<div className="card container border-0" style={{margin: "5rem 0 0"}}>
 					<div className="row g-0" style={{margin: "2rem 0"}}>
 						<div className="col-md-9 text-center m-auto">
 							<img src={`https://starwars-visualguide.com/assets/img/planets/${planet.uid}.jpg`} 

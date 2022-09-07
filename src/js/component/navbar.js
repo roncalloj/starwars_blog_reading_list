@@ -6,7 +6,7 @@ import Favoritos from "./favoritos";
 
 export const Navbar = () => {
 	return (
-		<nav className="navbar navbar-light bg-light mb-3 mx-2 d-flex justify-content-around">
+		<nav className="navbar navbar-light bg-light mb-3 mx-2 d-flex justify-content-around fixed-top">
 			<NavLink to="/">
 				<span className="navbar-brand mb-0 h1">Home</span>
 			</NavLink>
