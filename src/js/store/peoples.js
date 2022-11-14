@@ -29,7 +29,7 @@ export function peoplesActions(getStore, getActions, setStore){
 		loadPeople: async(uid) => {
 			console.log("Loading people...")
 			try {
-				let result = await fetch(`${baseURL}${uid}`)
+				let result = await fetch(	)
 				if(result.ok) result = await result.json()
 				else return;
 				const store = getStore()
